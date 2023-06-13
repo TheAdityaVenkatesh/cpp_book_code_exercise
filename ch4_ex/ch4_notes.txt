@@ -1,0 +1,6 @@
+type{value}     =>  converts value to type while preventing narrowing
+type(value)     =>  converts value to type while allowing narrowing
+switch statement: only allows for int, char, enum types
+                    can only have constant expressions in case labels
+                    can use several case labels for a single case   -   case '0': case'2':  ... (newline)
+

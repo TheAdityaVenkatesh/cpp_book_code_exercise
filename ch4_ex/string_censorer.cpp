@@ -10,7 +10,7 @@ int main(){
     
     std::cout << "Enter a sentence:\nTo terminate, press enter to flush buffer, then Ctrl+Z, then enter again\n";
     for(std::string word; std::cin >> word;){
-        //if(word == std::string('\x04'))
+        //if(word == std::string('\x04')) (nvm unnecessary)
         //    break;
         if(std::find(blacklist.begin(), blacklist.end(), word) != blacklist.end()){
             words.push_back("BLEEP");}

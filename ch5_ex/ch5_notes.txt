@@ -1,0 +1,7 @@
+- types of errors: compile-time, link time, runtime, logic errors
+- page 136 - conditions to keep in mind
+- caller or callee handling of runtime errors
+- brittle code contains implementation specific details - falls apart easily in case code is refactored or modified
+- caller or callee runtime error check depends on circumstance as to which is better
+- exceptions are used for error handling
+- 
